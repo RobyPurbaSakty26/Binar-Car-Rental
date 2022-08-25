@@ -132,4 +132,9 @@ ul {
   .text-service {
     margin: 0 auto;
   }
+
+  .text-wy-us {
+    margin: auto;
+    text-align: center;
+  }
 }
