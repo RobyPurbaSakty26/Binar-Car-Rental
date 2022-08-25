@@ -87,3 +87,49 @@ ul {
   width: 32px;
   height: 32px;
 }
+
+.img-service-size {
+  width: 459px;
+  height: 428px;
+}
+
+@media (max-width: 768px) {
+  .p-home-l {
+    padding: 100px 32px 0 50px;
+  }
+
+  .car-size {
+    width: 100%;
+    margin-top: 25%;
+  }
+
+  .img-service-size {
+    width: 459px;
+    height: 428px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .p-home-l {
+    padding: 100px 16px 0 25px;
+  }
+
+  .car-size {
+    width: 344px;
+    height: 199px;
+    margin-top: 24px;
+    display: absolute;
+    padding-right: 0px;
+  }
+
+  .img-service-size {
+    width: 199.26px;
+    height: 194.97px;
+    margin: 0 auto;
+  }
+
+  .text-service {
+    margin: 0 auto;
+  }
+}
