@@ -98,7 +98,7 @@ ul {
   height: 428px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .p-home-l {
     padding: 100px 32px 0 50px;
   }
@@ -128,7 +128,7 @@ ul {
   .car-size {
     width: 344px;
     height: 199px;
-    justify-content: flex-start;
+    margin: 24px 0 auto auto;
   }
 
   .img-service-size {
@@ -158,5 +158,11 @@ ul {
   /* faq */
   .faq-text-center {
     text-align: center;
+  }
+  .home-padding {
+    padding-top: 0px;
+  }
+  .p-home-l {
+    padding-top: 32px;
   }
 }
