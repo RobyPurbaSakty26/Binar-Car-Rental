@@ -109,6 +109,10 @@ ul {
   .offcanvas.offcanvas-end {
     width: 40vw;
   }
+  /* why us */
+  .card {
+    margin-bottom: 20px;
+  }
 
   .p-home-l {
     padding: 80px 32px 20px 9vw;
