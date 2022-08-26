@@ -97,8 +97,19 @@ ul {
   width: 459px;
   height: 428px;
 }
+/* nav */
+.register-style {
+  max-width: 81px;
+  max-height: 38px;
+}
 
 @media (max-width: 992px) {
+  /* offcanvas */
+
+  .offcanvas.offcanvas-end {
+    width: 40vw;
+  }
+
   .p-home-l {
     padding: 100px 32px 0 50px;
   }
