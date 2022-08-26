@@ -68,6 +68,11 @@ ul {
   color: white;
 }
 
+/* getting */
+.getting-p {
+  margin: 16px 250px;
+}
+
 /* testimoni */
 .start-rate {
   font-size: 16px;
@@ -108,6 +113,11 @@ ul {
     height: 428px;
     margin: auto;
   }
+
+  /* getting */
+  .getting-p {
+    margin: 16px 100px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -118,9 +128,7 @@ ul {
   .car-size {
     width: 344px;
     height: 199px;
-    margin-top: 24px;
-    display: absolute;
-    padding-right: 0px;
+    justify-content: flex-start;
   }
 
   .img-service-size {
@@ -135,6 +143,20 @@ ul {
 
   .text-wy-us {
     margin: auto;
+    text-align: center;
+  }
+  .star-center {
+    margin: auto;
+    padding: auto;
+  }
+
+  /* getting */
+  .getting-p {
+    margin: 16px 50px;
+  }
+
+  /* faq */
+  .faq-text-center {
     text-align: center;
   }
 }
