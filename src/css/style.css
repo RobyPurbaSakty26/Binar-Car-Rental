@@ -13,7 +13,7 @@ body {
 }
 
 .p-home-l {
-  padding: 100px 32px 0 110px;
+  padding: 100px 32px 0 8vw;
 }
 a {
   text-decoration: none;
@@ -111,7 +111,7 @@ ul {
   }
 
   .p-home-l {
-    padding: 100px 32px 0 50px;
+    padding: 80px 32px 20px 9vw;
   }
 
   .car-size {
@@ -132,6 +132,7 @@ ul {
 }
 
 @media (max-width: 576px) {
+  /* cotainer */
   .p-home-l {
     padding: 100px 16px 0 25px;
   }
@@ -142,6 +143,7 @@ ul {
     margin: 24px 0 auto auto;
   }
 
+  /* our-service */
   .img-service-size {
     width: 199.26px;
     height: 194.97px;
@@ -151,11 +153,13 @@ ul {
   .text-service {
     margin: 0 auto;
   }
-
+  /* wy-us */
   .text-wy-us {
     margin: auto;
     text-align: center;
   }
+
+  /* testimonial */
   .star-center {
     margin: auto;
     padding: auto;
